@@ -2,7 +2,7 @@ import Marker from "./components/Marker";
 
 const App = () => {
   return (
-    <div>
+    <div style={{ display: "flex", flexDirection: "column" }}>
       <Marker src="sample.jpeg" />
     </div>
   );
