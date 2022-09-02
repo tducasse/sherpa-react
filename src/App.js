@@ -1,5 +1,11 @@
+import Marker from "./components/Marker";
+
 const App = () => {
-  return <div>hello</div>;
+  return (
+    <div>
+      <Marker src="sample.jpeg" />
+    </div>
+  );
 };
 
 export default App;
